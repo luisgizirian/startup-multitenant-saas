@@ -1,19 +1,19 @@
 # Multitenant SaaS Blocks for Startups
 
-Guidance for a low-to-grow budget startup on the SaaS space to build its foundational bits :)
+Guidance for a low-to-grow-budget startup on the SaaS space to build its foundational bits :)
 
 ## First, a word or two on multitenant
-The concept means different things to different people. We appreciate plurality, but what is the scenario we're talking about when refering to multitenancy?
+The concept means different things to different people. What is the scenario we're talking about when refering to it?
 
-> By multitenant, we refer to a scenario where a provider allows usage of its plaform to a subscriber, where the latter, under its name, offer services on top for its own customers. So, the service provider has a couple higher options.
+Our take is when a provider allows usage of its plaform to a subscriber, whom in turn, offer services on top it for its own customers, under his branding/name (so, as if it was his own platform). This requires a higher separation degree (i.e. users, site branding). The SaaS provider has a couple options to build such offering:
 
-1. Build a separate tenant (platform instance)
-2. Allow co-existing multiple tenants, on top of the platform, where each tenant is isolated from one another, although using shared components and (optionally) infrastructure.
+1. Build a separate tenant (platform instance) per customer.
+2. Co-exist multiple tenants on top of the platform, providing isolation and some sort of customization, although using shared components and (optionally) infrastructure.
 
-We target the second option, which allow for better maintainability and scaling
+We pursuit the second optiondd, which allows for better maintainability and scaling.
 
 ## Some premises
-* Though for low-to-grow budgets. Startup mentality.
+* Thought for low-to-grow-budget. Startup mentality.
 * Replaceable pieces. No ties.
 * Avoid Cloud provider lock in.
 * All used bits OSS.
