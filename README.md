@@ -32,8 +32,8 @@ Here's a list on components that build this up.
 ## Implementations
 Once the services are in place, they have to operate on a daily basis. As with most things, options...
 
-* Containerized on Kubernetes
-* Microservices on Service Fabric
+* Containerized on [Kubernetes](https://github.com/kubernetes/kubernetes)
+* Microservices on [Service Fabric](https://github.com/Microsoft/service-fabric)
 * Single VM environment
 * Actor model based form (*[define]*)
 
