@@ -15,7 +15,7 @@ We pursuit the second optiondd, which allows for better maintainability and scal
 ## Some premises
 * Thought for low-to-grow-budget. Startup mentality.
 * Replaceable pieces. No ties.
-* Avoid Cloud provider lock in.
+* Avoid Cloud provider/platform lock in.
 * All used bits OSS.
 
 *[TODO: review initial list]*
@@ -45,7 +45,7 @@ Once the services are in place, they have to operate on a daily basis. As with m
 ## Guidance tech stack...
 
 ### On [.NET Core](https://github.com/dotnet/core)
-Modern, runs everywhere, plays well with others and it's performant. Quite a combo to lay foundations for whatever SaaS you're planning to build. Right?
+Feels natural when used in combination with [IdentityServer4](https://github.com/IdentityServer/IdentityServer4). Other implementations can be considered down the road. Right now, I'm sticking with techs that are familiar given my own background. Being multiplaform,aligns with our premises as well.
 
-### On [Identity Server](https://github.com/IdentityServer/IdentityServer4)
-We picked this OSS project to buid upon our Identity Service, as it fits both our goals and underlying tech. So, we feel comfortable using it :)
+### On [IdentityServer4](https://github.com/IdentityServer/IdentityServer4)
+We picked this OSS project to buid upon our IdentityService4, as it fits both our goals and underlying tech. So, we feel comfortable using it :)
