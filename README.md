@@ -53,5 +53,5 @@ Feels natural when used in combination with [IdentityServer4](https://github.com
 ### On [IdentityServer4](https://github.com/IdentityServer/IdentityServer4)
 We picked this OSS project to buid upon our IdentityService4, as it fits both our goals and underlying tech. So, we feel comfortable using it :)
 
-## On [Finbuckle.MultiTenant](https://github.com/Finbuckle/Finbuckle.MultiTenant)
+### On [Finbuckle.MultiTenant](https://github.com/Finbuckle/Finbuckle.MultiTenant)
 Allowed us to organize our solution elegantly and extend the realm of the scenarios we cover. Big kudos for this library! We've #finbuckled all :)
