@@ -9,8 +9,11 @@ Our take is when a provider allows usage of its plaform to a subscriber, whom in
 
 1. Build a separate tenant (platform instance) per customer.
 2. Co-exist multiple tenants on top of the platform, providing isolation and some sort of customization, although using shared components and (optionally) infrastructure.
+3. Sharding & Hybrid options
 
-We pursuit the second optiondd, which allows for better maintainability and scaling.
+Interesting read: https://docs.microsoft.com/en-us/azure/sql-database/saas-tenancy-app-design-patterns
+
+~~We pursuit the second optiondd, which allows for better maintainability and scaling.~~ **Update** as of Finbuckle.Multitenant (https://www.finbuckle.com) we've moved into option 3 to get flexibility on a per scenario basis.
 
 ## Some premises
 * Thought for low-to-grow-budget. Startup mentality.
@@ -49,3 +52,6 @@ Feels natural when used in combination with [IdentityServer4](https://github.com
 
 ### On [IdentityServer4](https://github.com/IdentityServer/IdentityServer4)
 We picked this OSS project to buid upon our IdentityService4, as it fits both our goals and underlying tech. So, we feel comfortable using it :)
+
+## On [Finbuckle.MultiTenant](https://github.com/Finbuckle/Finbuckle.MultiTenant)
+Allowed us to organize our solution elegantly and extend the realm of the scenarios we cover. Big kudos for this library! We've #finbuckled all :)
